@@ -121,14 +121,14 @@ main {
   margin: 10px;
   overflow: hidden;
   position: relative;
+  transition: transform 0.3s ease;
 }
 
 .gallery .image-container img {
   max-width: 800px;
-  transition: transform 0.3s ease;
 }
 
-.gallery .image-container:hover img {
+.gallery .image-container:hover {
   transform: scale(1.1);
 }
 
