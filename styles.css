@@ -125,7 +125,6 @@ main {
 
 .gallery .image-container img {
   max-width: 800px;
-  border-radius: 10px;
   transition: transform 0.3s ease;
 }
 
