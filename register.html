@@ -67,12 +67,15 @@
             id=""
             required
           />
-          <h4>Category</h4>
-          <input type="radio" name="myfood" id="" required /> Veg &nbsp; &nbsp;
-          &nbsp; &nbsp; &nbsp; &nbsp;
-          <input type="radio" name="myfood" id="" /> Non-Veg &nbsp; &nbsp;
-          &nbsp; &nbsp; &nbsp; &nbsp;
-          <input type="radio" name="myfood" id="" /> Both
+          <div class="food-category">
+            <h4>Category</h4>
+            <input type="radio" name="myfood" id="veg" required />
+            <label for="veg">Veg</label>
+            <input type="radio" name="myfood" id="nonveg" />
+            <label for="nonveg">Non-Veg</label>
+            <input type="radio" name="myfood" id="both" />
+            <label for="both">Both</label>
+          </div>
           <h4>Quanity (in Kg)</h4>
           <input type="number" name="quantity" id="" />
           <h4>Food Preparation Date and Time</h4>
